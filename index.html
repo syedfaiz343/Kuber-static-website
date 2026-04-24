@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKS Nginx Deployment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚀 EKS Nginx Static Website</h1>
+        <p>Deployed using Jenkins, Docker & Kubernetes</p>
+    </header>
+
+    <section class="content">
+        <h2>Project Flow</h2>
+        <ul>
+            <li>Developer → GitHub</li>
+            <li>GitHub → Jenkins</li>
+            <li>Jenkins → Docker Build</li>
+            <li>Docker → Registry</li>
+            <li>Registry → EKS</li>
+            <li>EKS → LoadBalancer</li>
+        </ul>
+
+        <button onclick="showMessage()">Click Me 🚀</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 DevOps Project | Built by You</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
